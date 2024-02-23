@@ -80,6 +80,10 @@ h6 {
 .nav-scroll .navbar-nav > li > a {
 	color: #333;
 }
+.navbar-brand img{
+	max-width: 20%;
+	max-height: 20%;
+}
 .nav-scroll .navbar-brand img {
 	-webkit-transform: scale(1.03) !important;
 	transform: scale(1.03) !important;

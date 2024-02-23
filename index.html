@@ -16,7 +16,7 @@
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg">
-  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="" alt="logo" class="logo-1"> </a>
+  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/logo.png" alt="logo" class="logo-1"> </a>
   </div>
 </nav>
 <!-- End Navbar --> 
@@ -318,7 +318,7 @@ $(document).ready(function() {
     function updateNavbarOnScroll() {
         var bodyScroll = $(window).scrollTop(),
             navbar = $(".navbar"),
-            logoSrc = bodyScroll > 50 ? '' : '';
+            logoSrc = bodyScroll > 50 ? 'images/logo.png' : 'images/logo.png';
         $('.navbar-logo img').attr('src', logoSrc);
         navbar.toggleClass("nav-scroll", bodyScroll > 50);
     }
