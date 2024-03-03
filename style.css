@@ -80,17 +80,31 @@ h6 {
 .nav-scroll .navbar-nav > li > a {
 	color: #333;
 }
+
+
 .navbar-brand{
 	display:flex;
 }
-.navbar-brand img{
-	max-width: 13%;
-	max-height: 13%;
+.video-container{
+    overflow: hidden;
+    position: relative;
+}
+.video-container video{
+	position: absolute;
+	top: -1;
+	left: 3;
+	width: 80%;
+	height: auto;
+}
+.logo-1{
+	max-width: 22%;
+	max-height: 22%;
+	margin-bottom:5%;
 }
 .nav-scroll .navbar-brand img {
 	-webkit-transform: scale(1.03) !important;
 	transform: scale(1.03) !important;
-}
+} 
 .nav-scroll .navbar-toggler {
 	cursor: pointer;
 }
