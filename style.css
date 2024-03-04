@@ -13,12 +13,14 @@ a:hover {
 	color:#5f0099;
 }
 h1, h2, h3 {
+	font-size:3em;
 	font-weight: 700;
 }
 h4, h5 {
 	font-weight:600;
 }
 h6 {
+	font-size:1.5em;
 	font-weight:500;
 }
 .white {
@@ -85,17 +87,7 @@ h6 {
 .navbar-brand{
 	display:flex;
 }
-.video-container{
-    overflow: hidden;
-    position: relative;
-}
-.video-container video{
-	position: absolute;
-	top: -1;
-	left: 3;
-	width: 80%;
-	height: auto;
-}
+
 .logo-1{
 	max-width: 22%;
 	max-height: 22%;
@@ -145,6 +137,7 @@ h6 {
 	width: 100%;
 }
 .banner-text {
+	font-size:1.1em;
 	padding-right:80px;
 	margin:50px 0px 0px;
 }
@@ -238,7 +231,7 @@ h6 {
 	text-decoration:none;
 }
 .video-section {
-	background: url(images/video-bg.jpg) no-repeat fixed center;
+	background: url(images/iphoenehome.png) no-repeat fixed center;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -514,7 +507,13 @@ input {
 .footer-copy p {
 	margin-bottom:0px;
 }
+.video-container video{
+	border-radius: 38px;
+}
 @media all and (max-width:991px) {
+.video-container video{
+	border-radius: 15px;
+}
 .navbar .navbar-collapse {
 	overflow: auto;
 	background:  rgb(213, 198, 221);
@@ -530,6 +529,9 @@ input {
 }
 }
 @media all and (max-width:768px) {
+	.video-container video{
+		border-radius: 25px;
+	}
 .nav-scroll .navbar-brand img, .navbar-brand img {
 	transform: scale(0.75) !important;
 	-webkit-transform: scale(0.75) !important;
